@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Anton";
+    src: url("Anton/Anton-Regular.ttf");
+}
+
+
+
+
+.link{
+display: flex;
+justify-content: flex-end;
+height: 90px;
+width: 1400px;
+background-color: black;
+margin: 20px;
+text-align: left;
+gap: 20px;
+font-family: "Anton";
+color: white;
+}
+
+
+.hero{
+
+position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+
+
+
+}
+
+.bg{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+
+.about{
+
+    position: absolute;
+top: 100px;
+left: 50px;
+font-size: 90px;
+color: white;
+font-weight: 700;
+
+
+}
+.newsletter-box{
+
+position: absolute;
+top: 30px;
+right: 100px;
+padding: 25px 35px;
+border-radius: 1%;
+text-align: center;
+height: 90x;
+width: 200px;
+background-color: #D9D9D9;
+
+}
+
+
+
+.newsletter-box p {
+font-family: "Anton";
+font-size: 15px;
+
+}
+
+.newsletter-box button{
+background-color: black;
+border-radius: 3%;
+border: none;
+padding: 25px 10px;
+cursor: pointer;
+height: 10px;
+width: 100px;
+box-shadow: 6px 4px solid red;
+color:  #D9D9D9;
+animation: all 3.2s ease;
+}
+
+.newsletter-box button:hover{
+background: #555;          
+  transform: translateY(-3px);     /* thoda upar uthega */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-box{
+position: absolute;
+bottom: 60px;
+left: 50px;
+width: 400px;
+height: 400px;
+background-color: green;
+color: white;
+line-height: 1.6;
+padding: 20px;
+
+
+}
+ h1{
+position: absolute;
+  top: 150px;
+  left: 50px;
+  color: white;
+  font-size: 90px;
+  font-weight: 900;
+       }
+
+.text-box p {
+  font-size: 13px;
+
+
+
+
+
+}
+
+ 
+
+
+
+
+

@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 100px;
+}
+
+input[type="email"] {
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    width: 350px;
+    height: 60px;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+    border-radius: 5%;
+    transition: 0.4s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    font-size: 23px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.icons {
+    text-align: right;
+    margin: 20px 30px;
+}
+
+.icons img {
+    width: 30px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+}
